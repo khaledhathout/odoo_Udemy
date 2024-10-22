@@ -5,7 +5,7 @@ class MyOrders(models.Model):
     _name = 'my.order'
     _description = 'Empty Empty Empty Empty Empty Empty Empty Empty '
 
-    orderName = fields.Char()
+    orderDes = fields.Char()
 #     value = fields.Integer()
 #     value2 = fields.Float(compute="_value_pc", store=True)
 #     description = fields.Text()
